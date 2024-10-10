@@ -1,1 +1,69 @@
+1. 우분투 서버에 git bare 서버 구축
+- 
+
+2. PC_1에서 vs code로 repo-1 생성 후에 bare 서버에 push
+- 
+
+3. bare 서버에서 br1 분기
+- 
+
+4. PC_2 에서 bare 서버 br1을 clone하여 repo1 생성 
+- 
+
+5. PC_2 에서 repo1을 파일 변경 및 생성 하고 bare 서버에 push
+- 
+
+6. bare 서버에서 br1 을 main으로 merge
+- 
+
+7. PC_1 에서 git bare main을 pull or fetch하여 확인
+- 
+
+8. PC_2 에서 main을 br2로 분기시키고 git hub에 연동 push
+- 
+
+9. git hub에서 파일 변경 및 생성 하고 PC_2  br2에 push 
+- 
+
+10. PC_2 에서 br2을 main에 merge 
+- 
+
+11. PC_2 에서 main을 bare 서버에 push 
+- 
+
+12. 6번, 7번 반복 수행 
+- 
+
+13. PC_1 에서 파일 변경 및 생성 하고 bare main으로 push
+- 
+
+14. bare 서버에서 main을  br1으로 merge
+- 
+
+15. PC_2 에서 bare 서버 br1을 pull or fetch하여 확인
+- 
+
+16. PC_2 에서 main을 br2으로  merge
+- 
+
+17. PC_2 에서 br2를 git hub으로 push하고 변경사항 확인
+- 
+
+18. PC_3 에서 git hub을 clone하여 파일 변경 및 추가
+- 
+
+19. PC_3 에서 git hub으로 push
+- 
+
+20. git hub에서 변경사항 확인
+- 
+
+21. git hub에서 PC_2  br2에 push 
+- 
+
+22. PC_2 에서 br2을 main으로 merge
+- 
+
+
+
 
